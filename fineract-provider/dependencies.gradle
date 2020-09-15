@@ -98,6 +98,9 @@ dependencies {
     implementation ('com.amazonaws:aws-java-sdk-s3') {
         exclude group: 'commons-logging'
     }
+    implementation ('com.google.cloud:google-cloud-storage'){
+        exclude group: 'commons-logging'
+    }
     implementation ('org.mnode.ical4j:ical4j') {
         exclude group: 'commons-logging'
     }

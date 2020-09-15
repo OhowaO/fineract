@@ -101,6 +101,7 @@ dependencyManagement {
         dependency 'com.squareup.okhttp:okhttp-urlconnection:2.7.5'
         dependency 'com.google.guava:guava:29.0-jre'
         dependency 'com.google.code.gson:gson:2.8.6'
+        dependency 'com.google.cloud:google-cloud-storage:1.113.0'
         dependency 'org.apache.commons:commons-email:1.5'
         dependency 'commons-io:commons-io:2.8.0'
         dependency 'org.drizzle.jdbc:drizzle-jdbc:1.4'
